@@ -13,6 +13,10 @@ module.exports = {
       gasPrice: 5e9,
       networkId: '*',
     },
+    mainnet: {
+      provider: () => new HDWalletProvider(process.env.DEV_MNEMONIC, "https://mainnet.infura.io/v3/" + infuraProjectId),
+      networkId: 1,       // Mainnet's id
+    },
     ropsten: {
       provider: () => new HDWalletProvider(process.env.DEV_MNEMONIC, "https://ropsten.infura.io/v3/" + infuraProjectId),
       networkId: 3,       // Ropsten's id
@@ -20,6 +24,10 @@ module.exports = {
     kovan: {
       provider: () => new HDWalletProvider(process.env.DEV_MNEMONIC, "https://kovan.infura.io/v3/" + infuraProjectId),
       networkId: 42,       // Kovan's id
+    },
+    rinkeby: {
+      provider: () => new HDWalletProvider(process.env.DEV_MNEMONIC, "https://rinkeby.infura.io/v3/" + infuraProjectId),
+      networkId: 4,       // Rinkeby's id
     },
   },
 };

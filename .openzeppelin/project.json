@@ -1,6 +1,8 @@
 {
   "manifestVersion": "2.2",
-  "contracts": {},
+  "contracts": {
+    "ProtoKat": "ProtoKat"
+  },
   "dependencies": {
     "@openzeppelin/contracts-ethereum-package": "^2.2.3"
   },
@@ -10,6 +12,7 @@
     "manager": "openzeppelin",
     "compilerSettings": {
       "optimizer": {}
-    }
+    },
+    "solcVersion": "0.5.11"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "name": "oz-erc20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "networks.js",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.2.3",
+    "@openzeppelin/upgrades": "^2.5.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "truffle-hdwallet-provider": "^1.0.17"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stxphxn/oz-erc20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stxphxn/oz-erc20/issues"
+  },
+  "homepage": "https://github.com/stxphxn/oz-erc20#readme"
+}

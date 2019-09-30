@@ -1,0 +1,15 @@
+{
+  "manifestVersion": "2.2",
+  "contracts": {},
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": "^2.2.3"
+  },
+  "name": "Protokats",
+  "version": "1.0.0",
+  "compiler": {
+    "manager": "openzeppelin",
+    "compilerSettings": {
+      "optimizer": {}
+    }
+  }
+}

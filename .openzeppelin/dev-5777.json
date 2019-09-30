@@ -1,0 +1,27 @@
+{
+  "contracts": {},
+  "solidityLibs": {},
+  "proxies": {
+    "@openzeppelin/contracts-ethereum-package/StandaloneERC20": [
+      {
+        "address": "0x37c7abe132259312af3bEc5B60e232e114204a32",
+        "version": "2.2.3",
+        "implementation": "0x99A01D054CD01e3c76AC2Ec3B5Eb29BfD6f083a0",
+        "admin": "0x3e72F4fD2431412397bA238B66eEE877719F5060",
+        "kind": "Upgradeable"
+      }
+    ]
+  },
+  "manifestVersion": "2.2",
+  "dependencies": {
+    "@openzeppelin/contracts-ethereum-package": {
+      "package": "0xb6AF773930C714F4c23Bf4B7B1A641B6Eb2527Bb",
+      "version": "2.2.3",
+      "customDeploy": true
+    }
+  },
+  "version": "1.0.0",
+  "proxyAdmin": {
+    "address": "0x3e72F4fD2431412397bA238B66eEE877719F5060"
+  }
+}

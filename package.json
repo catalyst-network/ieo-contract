@@ -1,5 +1,5 @@
 {
-  "name": "oz-erc20",
+  "name": "ieo-contract",
   "version": "1.0.0",
   "description": "",
   "main": "networks.js",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stxphxn/oz-erc20.git"
+    "url": "git+https://github.com/catalyst-network/ieo-contract"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stxphxn/oz-erc20/issues"
+    "url": "https://github.com/catalyst-network/ieo-contract"
   },
-  "homepage": "https://github.com/stxphxn/oz-erc20#readme"
+  "homepage": "https://github.com/catalyst-network/ieo-contract#readme"
 }

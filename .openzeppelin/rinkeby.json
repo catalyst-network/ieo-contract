@@ -1,7 +1,7 @@
 {
   "contracts": {
     "ProtoKat": {
-      "address": "0x826eAc56Ca88dacF3FCd7B8467B1572b40fDCf65",
+      "address": "0xB19784792f8795EBFE6570E018a86CD02Cd33418",
       "constructorCode": "60806040525b5b61000b565b6121d08061001a6000396000f3fe",
       "bodyBytecodeHash": "59f24e791dda37f73c638954b253c83cb1df32cf1d739c659c9d03102bbb264b",
       "localBytecodeHash": "c1cdddaa3ee576807e8a81837a40c908f30ed2437a8dc369ab9f3306f6b586a6",
@@ -214,19 +214,19 @@
   "proxies": {
     "@openzeppelin/contracts-ethereum-package/StandaloneERC20": [
       {
-        "address": "0x7a8Ee84553555b1cCAE0708594075A1DC9f0D60E",
+        "address": "0x7f5FAa7575A9c6e7c46d56B1FFCc6C7767E3BF73",
         "version": "2.2.3",
-        "implementation": "0xaabC7f35AF87B61148cD4047828cC7FC0707D771",
-        "admin": "0x06DcDf5eb01a08AbC98a9449D3C74a72f1CBD5E8",
+        "implementation": "0x73fa66eA7944a51453e78970dC84634D91e4848c",
+        "admin": "0x7a8Ee84553555b1cCAE0708594075A1DC9f0D60E",
         "kind": "Upgradeable"
       }
     ],
     "Protokats/ProtoKat": [
       {
-        "address": "0x9eEA126A4e7D132308e04cF1b73cE8dcc5705c40",
+        "address": "0x46bBcA7B2B370B2D96519e8B9ED9846e606d29e9",
         "version": "1.0.0",
-        "implementation": "0x826eAc56Ca88dacF3FCd7B8467B1572b40fDCf65",
-        "admin": "0x06DcDf5eb01a08AbC98a9449D3C74a72f1CBD5E8",
+        "implementation": "0xB19784792f8795EBFE6570E018a86CD02Cd33418",
+        "admin": "0x7a8Ee84553555b1cCAE0708594075A1DC9f0D60E",
         "kind": "Upgradeable"
       }
     ]
@@ -235,11 +235,11 @@
   "version": "1.0.0",
   "dependencies": {
     "@openzeppelin/contracts-ethereum-package": {
-      "package": "0xB6F8F11b166D526932ee04ffe4D25B810f619E34",
+      "package": "0xa44bb80b290dE8a465d17B14269dF53CF0B9Bf4f",
       "version": "2.2.3"
     }
   },
   "proxyAdmin": {
-    "address": "0x06DcDf5eb01a08AbC98a9449D3C74a72f1CBD5E8"
+    "address": "0x7a8Ee84553555b1cCAE0708594075A1DC9f0D60E"
   }
 }
